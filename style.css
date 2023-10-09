@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.collum{
+    float: left;
+    width: 25%;
+    padding: 20px;
+}
+@media screen and (max-width:992px) {
+    .collum{
+        float: left;
+        /* width: 50%; */
+    }
+}
+@media screen and (max-width:600px) {
+    .collum{
+        width: 50%;
+    }
+}
